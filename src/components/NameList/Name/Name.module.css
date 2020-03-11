@@ -1,0 +1,25 @@
+li{
+  position: relative;
+  list-style: none;
+  display:inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+li.girl {
+  background: #ffc6e5;
+  color: #940050;
+}
+li.girl:hover {
+  background: #ffadd9;
+}
+li.boy {
+  background: #a0cfee;
+  color: #16527a;
+}
+li.boy:hover {
+  background: #8bc4ea;
+}
